@@ -1,0 +1,8 @@
+baseURL = "http://dataworks-website.s3-website.us-east-2.amazonaws.com"
+languageCode = "en-us"
+title = "DataWorks Internship 2019"
+theme = "ananke"
+
+[[deployment.targets]]
+name="awsbucket"
+URL="s3://dataworks-website/?region=us-east-2"
